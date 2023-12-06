@@ -1,0 +1,25 @@
+@use 'kemet-ui/dist/styles/kemet.core.scss' as *;
+@use 'kemet-ui/dist/styles/kemet.components.scss' as *;
+
+.ippm {
+  --ippm-blue: #2271b1;
+  --ippm-red: #d63638;
+  --ippm-orange: #dba617;
+
+  width: calc(100% - 1.5rem);
+
+  h2 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+
+  hr {
+    margin-bottom: 2rem;
+    border-top: 0;
+    border-bottom: 1px solid gray;
+  }
+}
+
+kemet-toggle::part(label) {
+  gap: 0.5rem;
+}
