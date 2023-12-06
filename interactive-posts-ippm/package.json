@@ -1,6 +1,6 @@
 {
-  "name": "iposts",
-  "version": "1.0.0",
+  "name": "interactive-posts-ippm",
+  "version": "1.0.1",
   "description": "Interactive Posts Plugin",
   "main": "index.js",
   "scripts": {
