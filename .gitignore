@@ -2,3 +2,4 @@ node_modules/
 bundles/
 .env
 notes.md
+package-lock.json
